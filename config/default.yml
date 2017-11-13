@@ -97,7 +97,7 @@ Lint/EmptyInterpolation:
   Enabled: true
 
 Lint/EndAlignment:
-  Enabled: false
+  Enabled: true
 
 Lint/EndInMethod:
   Enabled: true
