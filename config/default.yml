@@ -200,7 +200,8 @@ Metrics/BlockLength:
   Enabled: false
 
 Metrics/BlockNesting:
-  Enabled: false
+  Enabled: true
+  Max: 4
 
 Metrics/ClassLength:
   Enabled: false
@@ -218,7 +219,7 @@ Metrics/ModuleLength:
   Enabled: false
 
 Metrics/ParameterLists:
-  Enabled: false
+  Enabled: true
 
 Metrics/PerceivedComplexity:
   Enabled: false
