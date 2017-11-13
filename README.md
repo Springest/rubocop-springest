@@ -1,20 +1,21 @@
-# RuboCop GitHub
+# RuboCop Springest
 
-This repository provides recommended RuboCop configuration and additional Cops for use on GitHub open source and internal Ruby projects.
+This repository provides recommended RuboCop configuration and additional Cops
+for use on Springest open source and internal Ruby projects.
 
 ## Installation
 
 **Gemfile**
 
 ``` ruby
-gem "rubocop-github"
+gem "rubocop-springest"
 ```
 
 **.rubocop.yml**
 
 ``` yaml
 inherit_gem:
-  rubocop-github:
+  rubocop-springest:
     - config/default.yml
     - config/rails.yml
 ```

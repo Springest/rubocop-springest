@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
-  s.name = "rubocop-github"
+  s.name = "rubocop-springest"
   s.version = "0.5.0"
-  s.summary = "RuboCop GitHub"
-  s.description = "Code style checking for GitHub Ruby repositories "
-  s.homepage = "https://github.com/github/rubocop-github"
+  s.summary = "RuboCop Springest"
+  s.description = "Code style checking for Springest Ruby repositories "
+  s.homepage = "https://github.com/springest/rubocop-springest"
   s.license = "MIT"
 
   s.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE", "config/*.yml", "lib/**/*.rb", "guides/*.md"]
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.1.0"
 
-  s.email = "engineering@github.com"
-  s.authors = "GitHub"
+  s.authors = ["Mark Mulder"]
+  s.email = ["markmulder@gmail.com"]
 end
