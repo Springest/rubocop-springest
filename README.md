@@ -3,6 +3,8 @@
 This repository provides recommended RuboCop configuration and additional Cops
 for use on Springest open source and internal Ruby projects.
 
+All additional cops are from [rubocop-github](https://github.com/github/rubocop-github/).
+
 ## Installation
 
 **Gemfile**
