@@ -42,7 +42,10 @@ Layout/SpaceAroundEqualsInParameterDefault:
 Layout/SpaceInsideArrayPercentLiteral:
   Enabled: true
 
-Layout/SpaceInsideBrackets:
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+
+Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: true
 
 Layout/SpaceInsideParens:
@@ -97,19 +100,22 @@ Layout/DotPosition:
   Enabled: true
   EnforcedStyle: trailing
 
-Lint/BlockAlignment:
+Layout/BlockAlignment:
   Enabled: true
 
 Lint/CircularArgumentReference:
   Enabled: true
 
-Lint/ConditionPosition:
+Layout/ConditionPosition:
   Enabled: true
 
 Lint/Debugger:
   Enabled: true
 
-Lint/DefEndAlignment:
+Layout/DefEndAlignment:
+  Enabled: true
+
+Layout/EndAlignment:
   Enabled: true
 
 Lint/DeprecatedClassMethods:
@@ -131,9 +137,6 @@ Lint/EmptyEnsure:
   Enabled: true
 
 Lint/EmptyInterpolation:
-  Enabled: true
-
-Lint/EndAlignment:
   Enabled: true
 
 Lint/EndInMethod:
@@ -175,7 +178,7 @@ Lint/StringConversionInInterpolation:
 Lint/UnderscorePrefixedVariableName:
   Enabled: true
 
-Lint/UnneededDisable:
+Lint/UnneededCopDisableDirective:
   Enabled: true
 
 Lint/UnneededSplatExpansion:
