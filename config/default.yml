@@ -373,9 +373,6 @@ Style/DefWithParentheses:
 Style/EndBlock:
   Enabled: true
 
-Style/FlipFlop:
-  Enabled: true
-
 Style/For:
   Enabled: true
 
