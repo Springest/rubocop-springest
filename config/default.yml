@@ -45,9 +45,6 @@ Layout/SpaceInsideArrayPercentLiteral:
 Layout/SpaceInsideArrayLiteralBrackets:
   Enabled: true
 
-Layout/SpaceInsideArrayLiteralBrackets:
-  Enabled: true
-
 Layout/SpaceInsideParens:
   Enabled: true
 
@@ -290,9 +287,6 @@ Performance/DoubleStartEndWith:
 Performance/EndWith:
   Enabled: true
 
-Performance/FlatMap:
-  Enabled: true
-
 Performance/LstripRstrip:
   Enabled: true
 
@@ -309,22 +303,10 @@ Performance/RedundantMerge:
 Performance/RedundantSortBy:
   Enabled: true
 
-Performance/ReverseEach:
-  Enabled: true
-
-Performance/Sample:
-  Enabled: true
-
 Performance/Size:
   Enabled: true
 
 Performance/StartWith:
-  Enabled: true
-
-Performance/Count:
-  Enabled: true
-
-Performance/Detect:
   Enabled: true
 
 Performance/FlatMap:
@@ -335,9 +317,6 @@ Performance/ReverseEach:
   Enabled: true
 
 Performance/Sample:
-  Enabled: true
-
-Performance/Size:
   Enabled: true
 
 Performance/StringReplacement:
