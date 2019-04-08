@@ -287,9 +287,6 @@ Performance/DoubleStartEndWith:
 Performance/EndWith:
   Enabled: true
 
-Performance/LstripRstrip:
-  Enabled: true
-
 Performance/RangeInclude:
   Enabled: false
 
@@ -299,9 +296,6 @@ Performance/RedundantMatch:
 Performance/RedundantMerge:
   Enabled: true
   MaxKeyValuePairs: 1
-
-Performance/RedundantSortBy:
-  Enabled: true
 
 Performance/Size:
   Enabled: true
@@ -314,9 +308,6 @@ Performance/FlatMap:
   EnabledForFlattenWithoutParams: false
 
 Performance/ReverseEach:
-  Enabled: true
-
-Performance/Sample:
   Enabled: true
 
 Performance/StringReplacement:
@@ -389,3 +380,12 @@ Style/StabbyLambdaParentheses:
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
+
+Style/Strip:
+  Enabled: true
+
+Style/RedundantSortBy:
+  Enabled: true
+
+Style/Sample:
+  Enabled: true
