@@ -16,6 +16,8 @@ gem "rubocop-springest"
 **.rubocop.yml**
 
 ``` yaml
+require: rubocop-performance
+
 inherit_gem:
   rubocop-springest:
     - config/default.yml
