@@ -1,4 +1,6 @@
-require: rubocop/cop/github
+require:
+  - rubocop-rails
+  - rubocop/cop/github
 
 AllCops:
   DisabledByDefault: true
