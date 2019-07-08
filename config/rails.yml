@@ -1,4 +1,22 @@
 Rails:
+  DisableByDefault: true
+
+Rails/Present:
+  Enabled: true
+
+Rails/Blank:
+  Enabled: true
+
+Rails/ActiveRecordAliases:
+  Enabled: true
+
+Rails/DynamicFindBy:
+  Enabled: true
+
+Rails/IgnoredSkipActionFilterOption:
+  Enabled: true
+
+Rails/Validation:
   Enabled: true
 
 Rails/FindEach:
