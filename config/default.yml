@@ -17,8 +17,14 @@ Layout/BlockEndNewline:
 Layout/EndOfLine:
   Enabled: true
 
+Layout/IndentationStyle:
+  Enabled: true
+
 Layout/InitialIndentation:
   Enabled: true
+
+Layout/LineLength:
+  Enabled: false
 
 Layout/SpaceAfterColon:
   Enabled: true
@@ -51,9 +57,6 @@ Layout/SpaceInsideParens:
   Enabled: true
 
 Layout/SpaceInsideRangeLiteral:
-  Enabled: true
-
-Layout/Tab:
   Enabled: true
 
 Layout/TrailingEmptyLines:
@@ -136,9 +139,6 @@ Lint/EmptyEnsure:
   Enabled: true
 
 Lint/EmptyInterpolation:
-  Enabled: true
-
-Lint/EndInMethod:
   Enabled: true
 
 Lint/EnsureReturn:
@@ -245,9 +245,6 @@ Metrics/ClassLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
