@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "rubocop-springest"
-  s.version = "0.7.1"
+  s.version = "0.7.2"
   s.summary = "RuboCop Springest"
   s.description = "Code style checking for Springest Ruby repositories"
   s.homepage = "https://github.com/springest/rubocop-springest"
