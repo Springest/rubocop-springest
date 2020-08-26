@@ -105,6 +105,9 @@ Layout/DotPosition:
 Layout/BlockAlignment:
   Enabled: true
 
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+
 Lint/CircularArgumentReference:
   Enabled: true
 
@@ -184,9 +187,6 @@ Lint/RedundantSplatExpansion:
   Enabled: true
 
 Lint/UnreachableCode:
-  Enabled: true
-
-Lint/UselessComparison:
   Enabled: true
 
 Lint/UselessSetterCall:
