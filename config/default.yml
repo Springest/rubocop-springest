@@ -19,7 +19,6 @@ Layout/BeginEndAlignment:
 
 Layout/BlockAlignment:
   Enabled: true
-  EnforcedStyleAlignWith: start_of_line
 
 Layout/BlockEndNewline:
   Enabled: true
