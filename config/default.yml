@@ -11,20 +11,113 @@ Bundler/DuplicatedGem:
 Bundler/OrderedGems:
   Enabled: true
 
+Layout/AssignmentIndentation:
+  Enabled: true
+
+Layout/BeginEndAlignment:
+  Enabled: true
+
+Layout/BlockAlignment:
+  Enabled: true
+  EnforcedStyleAlignWith: start_of_line
+
 Layout/BlockEndNewline:
+  Enabled: true
+
+Layout/CaseIndentation:
+  Enabled: true
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: true
+
+Layout/CommentIndentation:
+  Enabled: true
+
+Layout/ConditionPosition:
+  Enabled: true
+
+Layout/DefEndAlignment:
+  Enabled: true
+
+Layout/DotPosition:
+  Enabled: true
+  EnforcedStyle: trailing
+
+Layout/ElseAlignment:
+  Enabled: true
+
+Layout/EmptyComment:
+  Enabled: true
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+  AllowAdjacentOneLineDefs: true
+  NumberOfEmptyLines: 1
+
+Layout/EmptyLines:
+  Enabled: true
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: true
+
+Layout/EmptyLinesAroundArguments:
+  Enabled: true
+
+Layout/EmptyLinesAroundBeginBody:
+  Enabled: true
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: true
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: true
+
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: true
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: true
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: true
+
+Layout/EndAlignment:
   Enabled: true
 
 Layout/EndOfLine:
   Enabled: true
 
+Layout/ExtraSpacing:
+  Enabled: true
+  AllowForAlignment: false
+
+Layout/IndentationConsistency:
+  Enabled: true
+
 Layout/IndentationStyle:
+  Enabled: true
+
+Layout/IndentationWidth:
   Enabled: true
 
 Layout/InitialIndentation:
   Enabled: true
 
+Layout/LeadingEmptyLines:
+  Enabled: true
+
 Layout/LineLength:
   Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
 
 Layout/SpaceAfterColon:
   Enabled: true
@@ -47,10 +140,13 @@ Layout/SpaceAroundBlockParameters:
 Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: true
 
-Layout/SpaceInsideArrayPercentLiteral:
+Layout/SpaceBeforeFirstArg:
   Enabled: true
 
 Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: true
+
+Layout/SpaceInsideArrayPercentLiteral:
   Enabled: true
 
 Layout/SpaceInsideParens:
@@ -65,46 +161,11 @@ Layout/TrailingEmptyLines:
 Layout/TrailingWhitespace:
   Enabled: true
 
-Layout/SpaceBeforeFirstArg:
+Lint/AmbiguousOperator:
   Enabled: true
 
-Layout/EmptyLineBetweenDefs:
+Lint/AmbiguousRegexpLiteral:
   Enabled: true
-  AllowAdjacentOneLineDefs: true
-  NumberOfEmptyLines: 1
-
-Layout/EmptyLines:
-  Enabled: true
-
-Layout/EmptyLinesAroundBeginBody:
-  Enabled: true
-
-Layout/EmptyLinesAroundBlockBody:
-  Enabled: true
-
-Layout/EmptyLinesAroundClassBody:
-  Enabled: true
-
-Layout/EmptyLinesAroundMethodBody:
-  Enabled: true
-
-Layout/EmptyLinesAroundModuleBody:
-  Enabled: true
-
-Layout/EmptyLinesAroundExceptionHandlingKeywords:
-  Enabled: true
-
-Layout/ExtraSpacing:
-  Enabled: true
-  AllowForAlignment: false
-
-Layout/DotPosition:
-  Enabled: true
-  EnforcedStyle: trailing
-
-Layout/BlockAlignment:
-  Enabled: true
-  EnforcedStyleAlignWith: start_of_line
 
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
@@ -112,16 +173,7 @@ Lint/BinaryOperatorWithIdenticalOperands:
 Lint/CircularArgumentReference:
   Enabled: true
 
-Layout/ConditionPosition:
-  Enabled: true
-
 Lint/Debugger:
-  Enabled: true
-
-Layout/DefEndAlignment:
-  Enabled: true
-
-Layout/EndAlignment:
   Enabled: true
 
 Lint/DeprecatedClassMethods:
@@ -163,49 +215,10 @@ Lint/LiteralInInterpolation:
 Lint/Loop:
   Enabled: true
 
-Lint/NextWithoutAccumulator:
-  Enabled: true
-
-Lint/RandOne:
-  Enabled: true
-
-Lint/RequireParentheses:
-  Enabled: true
-
-Lint/RescueException:
-  Enabled: true
-
-Lint/RedundantStringCoercion:
-  Enabled: true
-
-Lint/UnderscorePrefixedVariableName:
-  Enabled: true
-
-Lint/RedundantCopDisableDirective:
-  Enabled: true
-
-Lint/RedundantSplatExpansion:
-  Enabled: true
-
-Lint/UnreachableCode:
-  Enabled: true
-
-Lint/UselessSetterCall:
-  Enabled: true
-
-Lint/Void:
-  Enabled: true
-
-Lint/AmbiguousOperator:
-  Enabled: true
-
-Lint/AmbiguousRegexpLiteral:
-  Enabled: true
-
-Lint/SuppressedException:
-  Enabled: true
-
 Lint/NestedMethodDefinition:
+  Enabled: true
+
+Lint/NextWithoutAccumulator:
   Enabled: true
 
 Lint/NonLocalExitFromIterator:
@@ -214,7 +227,34 @@ Lint/NonLocalExitFromIterator:
 Lint/ParenthesesAsGroupedExpression:
   Enabled: true
 
+Lint/RandOne:
+  Enabled: true
+
+Lint/RedundantCopDisableDirective:
+  Enabled: true
+
+Lint/RedundantSplatExpansion:
+  Enabled: true
+
+Lint/RedundantStringCoercion:
+  Enabled: true
+
+Lint/RequireParentheses:
+  Enabled: true
+
+Lint/RescueException:
+  Enabled: true
+
 Lint/ShadowingOuterLocalVariable:
+  Enabled: true
+
+Lint/SuppressedException:
+  Enabled: true
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: true
+
+Lint/UnreachableCode:
   Enabled: true
 
 Lint/UnusedBlockArgument:
@@ -230,6 +270,12 @@ Lint/UselessAssignment:
   Enabled: true
 
 Lint/UselessElseWithoutRescue:
+  Enabled: true
+
+Lint/UselessSetterCall:
+  Enabled: true
+
+Lint/Void:
   Enabled: true
 
 Metrics/AbcSize:
@@ -287,6 +333,10 @@ Performance/DoubleStartEndWith:
 Performance/EndWith:
   Enabled: true
 
+Performance/FlatMap:
+  Enabled: true
+  EnabledForFlattenWithoutParams: false
+
 Performance/RangeInclude:
   Enabled: false
 
@@ -297,17 +347,13 @@ Performance/RedundantMerge:
   Enabled: true
   MaxKeyValuePairs: 1
 
+Performance/ReverseEach:
+  Enabled: true
+
 Performance/Size:
   Enabled: true
 
 Performance/StartWith:
-  Enabled: true
-
-Performance/FlatMap:
-  Enabled: true
-  EnabledForFlattenWithoutParams: false
-
-Performance/ReverseEach:
   Enabled: true
 
 Performance/StringReplacement:
@@ -374,6 +420,12 @@ Style/Not:
 Style/OneLineConditional:
   Enabled: true
 
+Style/RedundantSortBy:
+  Enabled: true
+
+Style/Sample:
+  Enabled: true
+
 Style/StabbyLambdaParentheses:
   Enabled: true
 
@@ -382,56 +434,4 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/Strip:
-  Enabled: true
-
-Style/RedundantSortBy:
-  Enabled: true
-
-Style/Sample:
-  Enabled: true
-
-Layout/IndentationWidth:
-  Enabled: true
-
-Layout/AssignmentIndentation:
-  Enabled: true
-
-Layout/BeginEndAlignment:
-  Enabled: true
-
-Layout/CaseIndentation:
-  Enabled: true
-
-Layout/ClosingParenthesisIndentation:
-  Enabled: true
-
-Layout/CommentIndentation:
-  Enabled: true
-
-Layout/LeadingEmptyLines:
-  Enabled: true
-
-Layout/MultilineMethodCallIndentation:
-  Enabled: true
-  EnforcedStyle: indented
-
-Layout/IndentationConsistency:
-  Enabled: true
-
-Layout/ElseAlignment:
-  Enabled: true
-
-Layout/EmptyComment:
-  Enabled: true
-
-Layout/EmptyLineAfterGuardClause:
-  Enabled: true
-
-Layout/EmptyLinesAroundAccessModifier:
-  Enabled: true
-
-Layout/EmptyLinesAroundArguments:
-  Enabled: true
-
-Layout/EmptyLineAfterMagicComment:
   Enabled: true
