@@ -104,6 +104,7 @@ Layout/DotPosition:
 
 Layout/BlockAlignment:
   Enabled: true
+  EnforcedStyleAlignWith: start_of_line
 
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
@@ -387,4 +388,50 @@ Style/RedundantSortBy:
   Enabled: true
 
 Style/Sample:
+  Enabled: true
+
+Layout/IndentationWidth:
+  Enabled: true
+
+Layout/AssignmentIndentation:
+  Enabled: true
+
+Layout/BeginEndAlignment:
+  Enabled: true
+
+Layout/CaseIndentation:
+  Enabled: true
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: true
+
+Layout/CommentIndentation:
+  Enabled: true
+
+Layout/LeadingEmptyLines:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+
+Layout/IndentationConsistency:
+  Enabled: true
+
+Layout/ElseAlignment:
+  Enabled: true
+
+Layout/EmptyComment:
+  Enabled: true
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: true
+
+Layout/EmptyLinesAroundArguments:
+  Enabled: true
+
+Layout/EmptyLineAfterMagicComment:
   Enabled: true
